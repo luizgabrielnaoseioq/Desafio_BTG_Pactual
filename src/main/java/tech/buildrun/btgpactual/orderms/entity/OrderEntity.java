@@ -29,4 +29,14 @@ public class OrderEntity {
     private BigDecimal total;
 
     private List<OrderItem> items;
+
+    public OrderEntity(Long orderId) {
+
+    }
+
+    public void setTotal(BigDecimal total) {
+    }
+
+    public void setCustomerId(Long aLong) {
+    }
 }

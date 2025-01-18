@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   mongodb:
-    image: mongo:6.0 # Versão mais recente recomendada
+    image: mongo
     container_name: mongodb
     ports:
       - "27017:27017"
