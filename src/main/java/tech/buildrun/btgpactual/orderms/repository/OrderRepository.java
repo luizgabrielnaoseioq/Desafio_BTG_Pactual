@@ -7,5 +7,4 @@ import tech.buildrun.btgpactual.orderms.entity.OrderEntity;
 
 public interface OrderRepository extends MongoRepository<OrderEntity, Long> {
 
-    Page<OrderEntity> findAllByCustomerId(Long customerId, PageRequest pageRequest);
 }
